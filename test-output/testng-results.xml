@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-06T15:19:12 IST" name="Suite" finished-at="2023-11-06T15:20:58 IST" duration-ms="106295">
+    <groups>
+    </groups>
+    <test started-at="2023-11-06T15:19:12 IST" name="Test" finished-at="2023-11-06T15:20:58 IST" duration-ms="106295">
+      <class name="MLL.TestCases.InBoundTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:MLL.TestCases.InBoundTest@749c877b]" started-at="2023-11-06T15:19:12 IST" name="launchApplication" finished-at="2023-11-06T15:19:26 IST" duration-ms="13839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="PreGrncreate(java.util.HashMap)[pri:0, instance:MLL.TestCases.InBoundTest@749c877b]" started-at="2023-11-06T15:19:26 IST" name="PreGrncreate" data-provider="getData" finished-at="2023-11-06T15:20:23 IST" duration-ms="56929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Welcome@1234, username=Preetham}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreGrncreate -->
+        <test-method signature="PreGrnsearch()[pri:0, instance:MLL.TestCases.InBoundTest@749c877b]" started-at="2023-11-06T15:20:23 IST" name="PreGrnsearch" finished-at="2023-11-06T15:20:32 IST" duration-ms="9462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreGrnsearch -->
+        <test-method signature="GrnSearch()[pri:0, instance:MLL.TestCases.InBoundTest@749c877b]" started-at="2023-11-06T15:20:32 IST" name="GrnSearch" finished-at="2023-11-06T15:20:52 IST" depends-on-methods="MLL.TestCases.InBoundTest.PreGrncreate" duration-ms="19976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GrnSearch -->
+        <test-method signature="convertToGrn()[pri:0, instance:MLL.TestCases.InBoundTest@749c877b]" started-at="2023-11-06T15:20:52 IST" name="convertToGrn" finished-at="2023-11-06T15:20:58 IST" depends-on-methods="MLL.TestCases.InBoundTest.GrnSearch" duration-ms="6014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertToGrn -->
+      </class> <!-- MLL.TestCases.InBoundTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
